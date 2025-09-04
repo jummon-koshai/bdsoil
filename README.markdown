@@ -1,6 +1,6 @@
-# BDSOIL: Rooted in Heart, Soil, People, and Technology
+# BDSoil: Rooted in Heart, Soil, People, and Technology
 
-BDSOIL is a robust desktop application designed to revolutionize soil management for farmers. Built to provide actionable insights, this tool leverages advanced data analytics to optimize agricultural practices, enhance crop productivity, and promote sustainable farming. Whether you're a smallholder or managing large-scale farmland, BDSOIL equips you with the tools to make informed decisions about soil health, crop selection, and resource allocation.
+BDSoil is a robust desktop application designed to revolutionize soil management for farmers. Built to provide actionable insights, this tool leverages advanced data analytics to optimize agricultural practices, enhance crop productivity, and promote sustainable farming. Whether you're a smallholder or managing large-scale farmland, BDSOIL equips you with the tools to make informed decisions about soil health, crop selection, and resource allocation.
 
 ## Features
 
