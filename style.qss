@@ -1,0 +1,13 @@
+
+            QMainWindow { background-color: white; color: black; font-family: Arial, Helvetica, sans-serif; }
+            QSplitter::handle { background-color: #f42a4d; width: 5px; }
+            QPushButton { background-color: #006a4e; color: white; border-radius: 5px; padding: 5px; min-width: 150px; }
+            QPushButton:hover { background-color: #f42a4d; }
+            QTextEdit { background-color: white; color: black; border: 2px solid #006a4e; border-radius: 3px; padding: 5px; }
+            QLineEdit { background-color: white; color: black; border: 2px solid #006a4e; border-radius: 3px; padding: 5px; }
+            QLineEdit:focus { border: 2px solid #006a4e; }
+            QComboBox { background-color: white; color: black; border: 2px solid #006a4e; border-radius: 3px; padding: 5px; }
+            QComboBox::drop-down { border: none; }
+            QComboBox QAbstractItemView { background-color: white; color: black; }
+            QDialog { background-color: white; color: black; }
+        

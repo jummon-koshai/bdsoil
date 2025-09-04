@@ -1,0 +1,31 @@
+crop_name,season,soil_type,suitable_regions,planting_time,yield_per_acre
+Rice (Aman),Kharif (Monsoon),Clay Loam,All Regions,June-July,2.5 tons
+Rice (Boro),Rabi (Winter),Clay,All Regions,December-January,3.5 tons
+Rice (Aus),Kharif (Monsoon),Loam,All Regions,March-April,2.0 tons
+Jute,Kharif (Monsoon),Loam,Dhaka,March-May,1.5 tons
+Wheat,Rabi (Winter),Loam,Rajshahi,November-December,2.8 tons
+Maize,Rabi (Winter),Loam,All Regions,November-December,6.0 tons
+Sugarcane,Rabi (Winter),Clay Loam,Rajshahi,October-November,25 tons
+Tea,Year Round,Loam,Sylhet,Year Round,1200 kg
+Cotton,Rabi (Winter),Clay Loam,Rajshahi,November-December,800 kg
+Potato,Rabi (Winter),Loam,Dhaka,October-November,8 tons
+Onion,Rabi (Winter),Loam,All Regions,September-October,12 tons
+Garlic,Rabi (Winter),Loam,Rajshahi,October-November,4 tons
+Tomato,Rabi (Winter),Loam,All Regions,October-November,15 tons
+Brinjal,Year Round,Loam,All Regions,Year Round,10 tons
+Okra,Kharif (Monsoon),Loam,All Regions,February-March,3 tons
+Chili,Year Round,Loam,All Regions,Year Round,2 tons
+Lentil,Rabi (Winter),Loam,All Regions,October-November,1.2 tons
+Chickpea,Rabi (Winter),Loam,Rajshahi,October-November,1.5 tons
+Mustard,Rabi (Winter),Loam,All Regions,October-November,1.0 tons
+Sesame,Kharif (Monsoon),Sandy Loam,All Regions,March-April,800 kg
+Groundnut,Kharif (Monsoon),Sandy Loam,Rajshahi,April-May,1.8 tons
+Sunflower,Rabi (Winter),Loam,All Regions,November-December,1.5 tons
+Banana,Year Round,Clay Loam,All Regions,Year Round,40 tons
+Papaya,Year Round,Loam,All Regions,Year Round,25 tons
+Mango,Year Round,Loam,All Regions,Year Round,8 tons
+Jackfruit,Year Round,Loam,All Regions,Year Round,15 tons
+Coconut,Year Round,Sandy Loam,Chittagong,Year Round,12000 nuts
+Betel Leaf,Year Round,Clay Loam,Sylhet,Year Round,5000 leaves
+Turmeric,Kharif (Monsoon),Loam,All Regions,April-May,3 tons
+Ginger,Kharif (Monsoon),Loam,All Regions,March-April,8 tons

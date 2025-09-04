@@ -1,0 +1,42 @@
+crop,pest_disease,type,favorable_temp,favorable_humidity,favorable_rainfall,vulnerable_stage,severity
+Rice,Brown Planthopper,Pest,Moderate (20-30°C),High (> 80%),Continuous Rain,Flowering,High
+Rice,Stem Borer,Pest,Moderate (20-30°C),Moderate (60-80%),Light Rain,Vegetative,Medium
+Rice,Blast Disease,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,High
+Rice,Bacterial Leaf Blight,Disease,Hot (> 30°C),High (> 80%),Heavy Rain,Vegetative,Medium
+Rice,Sheath Blight,Disease,Hot (> 30°C),High (> 80%),Continuous Rain,Flowering,Medium
+Wheat,Aphids,Pest,Moderate (20-30°C),Low (< 60%),No Rain,Vegetative,Medium
+Wheat,Rust Disease,Disease,Moderate (20-30°C),High (> 80%),Light Rain,Vegetative,High
+Wheat,Wheat Blast,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Flowering,High
+Maize,Fall Armyworm,Pest,Hot (> 30°C),Moderate (60-80%),Light Rain,Vegetative,High
+Maize,Corn Borer,Pest,Moderate (20-30°C),Moderate (60-80%),Light Rain,Vegetative,Medium
+Maize,Leaf Blight,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,Medium
+Potato,Late Blight,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Flowering,High
+Potato,Early Blight,Disease,Hot (> 30°C),Moderate (60-80%),Light Rain,Vegetative,Medium
+Potato,Potato Tuber Moth,Pest,Moderate (20-30°C),Low (< 60%),No Rain,Fruiting,Medium
+Tomato,Tomato Fruit Borer,Pest,Hot (> 30°C),Moderate (60-80%),Light Rain,Fruiting,High
+Tomato,Early Blight,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,Medium
+Tomato,Late Blight,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Fruiting,High
+Onion,Thrips,Pest,Hot (> 30°C),Low (< 60%),No Rain,Vegetative,Medium
+Onion,Purple Blotch,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,Medium
+Jute,Jute Aphid,Pest,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,Medium
+Jute,Stem Rot,Disease,Hot (> 30°C),High (> 80%),Continuous Rain,Vegetative,Medium
+Sugarcane,Sugarcane Borer,Pest,Hot (> 30°C),Moderate (60-80%),Light Rain,Vegetative,Medium
+Sugarcane,Red Rot,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,High
+Brinjal,Fruit and Shoot Borer,Pest,Hot (> 30°C),Moderate (60-80%),Light Rain,Fruiting,High
+Brinjal,Bacterial Wilt,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,High
+Chili,Chili Thrips,Pest,Hot (> 30°C),Low (< 60%),No Rain,Fruiting,Medium
+Chili,Anthracnose,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Fruiting,Medium
+Lentil,Aphids,Pest,Moderate (20-30°C),Low (< 60%),No Rain,Vegetative,Medium
+Lentil,Rust,Disease,Moderate (20-30°C),High (> 80%),Light Rain,Flowering,Medium
+Chickpea,Pod Borer,Pest,Hot (> 30°C),Moderate (60-80%),Light Rain,Fruiting,Medium
+Chickpea,Wilt,Disease,Hot (> 30°C),High (> 80%),Heavy Rain,Vegetative,High
+Mustard,Aphids,Pest,Moderate (20-30°C),Low (< 60%),No Rain,Flowering,Medium
+Mustard,Alternaria Blight,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,Medium
+Groundnut,Leaf Miner,Pest,Hot (> 30°C),Low (< 60%),No Rain,Vegetative,Medium
+Groundnut,Tikka Disease,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,High
+Sunflower,Head Borer,Pest,Hot (> 30°C),Moderate (60-80%),Light Rain,Flowering,Medium
+Sunflower,Rust,Disease,Moderate (20-30°C),High (> 80%),Light Rain,Vegetative,Medium
+Banana,Banana Aphid,Pest,Moderate (20-30°C),High (> 80%),Light Rain,Vegetative,Medium
+Banana,Black Sigatoka,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Vegetative,High
+Mango,Mango Hopper,Pest,Hot (> 30°C),Low (< 60%),No Rain,Flowering,Medium
+Mango,Anthracnose,Disease,Moderate (20-30°C),High (> 80%),Heavy Rain,Fruiting,Medium
