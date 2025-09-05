@@ -101,8 +101,8 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 <h2>Screenshots</h2>
 
-<img src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" alt="Login Screen" width="600"/>
-<img src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" alt="Dashboard" width="600"/>
+<img src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" alt="Login Screen" width="600" style="margin-bottom: 20px;"/>
+<img src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" alt="Dashboard" width="600" style="margin-bottom: 20px;"/>
 
 <ul>
   <li><strong>Login Screen</strong>: Features a welcoming animated UI with particle effects and modern input styling.</li>
