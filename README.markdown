@@ -68,7 +68,7 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 3. Install dependencies:
    ```
-   pip install PySide6 pandas reportlab matplotlib numpy
+   pip install requirements.txt
    ```
 
 4. Prepare data files (place in a `data/` directory):
@@ -80,7 +80,7 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 5. Run the application:
    ```
-   python main.py  # Assuming the script is named main.py
+   python main.py  
    ```
 
 ## Usage
