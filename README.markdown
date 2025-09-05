@@ -101,11 +101,32 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 <h2>Screenshots</h2>
 
-<div style="margin-bottom: 40px;">
-  <img src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" alt="Login Screen" width="400"/>
-</div>
-<div style="margin-bottom: 40px;">
-  <img src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" alt="Dashboard" width="400"/>
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+
+  <!-- Monitor Frame 1 -->
+  <div style="
+    border: 12px solid #333;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    background: #111;
+    padding: 10px;
+    max-width: 420px;
+  ">
+    <img src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" alt="Login Screen" style="width: 100%; border-radius: 8px; display: block;"/>
+  </div>
+
+  <!-- Monitor Frame 2 -->
+  <div style="
+    border: 12px solid #333;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    background: #111;
+    padding: 10px;
+    max-width: 420px;
+  ">
+    <img src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" alt="Dashboard" style="width: 100%; border-radius: 8px; display: block;"/>
+  </div>
+
 </div>
 
 <ul>
