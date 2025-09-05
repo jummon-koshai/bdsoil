@@ -99,13 +99,15 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 - Navigate to Crop Recommendations: Select "Clay Loam" and "Kharif" for suggestions like Rice (Aman).
 - View fertilizer needs and generate a PDF report for planning.
 
-## Screenshots
+<h2>Screenshots</h2>
 
-![Login Screen](<img width="794" height="424" alt="image" src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" />)
-![Dashboard](<img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" />)
+<img src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" alt="Login Screen" width="600"/>
+<img src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" alt="Dashboard" width="600"/>
 
-- **Login Screen**: Features a welcoming animated UI with particle effects and modern input styling.
-- **Main Dashboard**: Displays a clean sidebar navigation system and a modern gradient UI reflecting Bangladesh's national colors.
+<ul>
+  <li><strong>Login Screen</strong>: Features a welcoming animated UI with particle effects and modern input styling.</li>
+  <li><strong>Main Dashboard</strong>: Displays a clean sidebar navigation system and a modern gradient UI reflecting Bangladesh's national colors.</li>
+</ul>
 
 ## Contributing
 
