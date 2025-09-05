@@ -101,7 +101,7 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 ## Screenshots
 
-*(Placeholder: Include actual screenshots in a real repo)*
+(<img width="794" height="424" alt="image" src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" />)
 
 - **Login Screen**: Animated welcome with particle effects.
 - **Main Dashboard**: Sidebar with futuristic gradient theme.
