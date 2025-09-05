@@ -101,12 +101,12 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 ## Screenshots
 
-(<img width="794" height="424" alt="image" src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" />)
+<img width="794" height="424" alt="image" src="https://github.com/user-attachments/assets/37b8bfea-135b-4fc7-bf4b-add62787bc0e" />
+<img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/68175282-7e95-47bf-a70e-9399cd01e6de" />
+
 
 - **Login Screen**: Animated welcome with particle effects.
 - **Main Dashboard**: Sidebar with futuristic gradient theme.
-- **Crop Section**: Combo boxes for soil/season, output with yield details.
-- **Report Generation**: PDF export and Matplotlib chart display.
 
 ## Contributing
 
