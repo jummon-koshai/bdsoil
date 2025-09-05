@@ -48,7 +48,7 @@ BDSoil is a robust desktop application designed to revolutionize soil management
 
 ## Usage
 
-1. **Launch BDSOIL**: Open the app and create a new farm profile.
+1. **Launch BDSoil**: Open the app and create a new farm profile.
 2. **Input Soil Data**: Enter soil test results manually or import from compatible devices.
 3. **Explore Insights**: Navigate to the dashboard to view soil health metrics and crop recommendations.
 4. **Track Progress**: Use the history tab to monitor changes and optimize farming strategies.
