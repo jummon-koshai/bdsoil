@@ -1,3 +1,10 @@
+<img width="274" height="184" alt="image" src="https://github.com/user-attachments/assets/1c5352d9-d603-4ccc-8ef9-28a0d8a017b0" />
+
+
+
+
+
+
 # BDSoil: Rooted in Heart, Soil, People, and Technology
 
 BDSoil is a robust desktop application designed to revolutionize soil management for farmers. Built to provide actionable insights, this tool leverages advanced data analytics to optimize agricultural practices, enhance crop productivity, and promote sustainable farming. Whether you're a smallholder or managing large-scale farmland, BDSoil equips you with the tools to make informed decisions about soil health, crop selection, and resource allocation.
