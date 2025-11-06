@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BDSoil Map</title>
+  <style>
+    html, body, #map { height: 100%; margin: 0; padding: 0; }
+    #map { border: 2px solid #006a4e; border-radius: 8px; }
+    .status { padding: 10px; background: #000; color: #0f0; font-family: monospace; }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <div id="status" class="status">Loading...</div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+
+  <script>
+    const status = document.getElementById('status');
+    status.innerHTML = 'JS Loaded';
+
+    if (typeof L === 'undefined') {
+      status.innerHTML = 'Leaflet FAILED';
+      status.style.color = 'red';
+    } else {
+      status.innerHTML = 'Leaflet OK';
+    }
+
+    // CRITICAL: Wait for QWebChannel to fully load
+    let bridgeReady = false;
+    window.bridge = null;
+
+    new QWebChannel(qt.webChannelTransport, function(channel) {
+      console.log("QWebChannel: Connected");
+      if (channel && channel.objects && channel.objects.bridge) {
+        window.bridge = channel.objects.bridge;
+        bridgeReady = true;
+        status.innerHTML = 'BRIDGE OK';
+        status.style.color = 'lime';
+        initMap();
+      } else {
+        console.error("Bridge object not found in channel");
+        status.innerHTML = 'BRIDGE MISSING';
+        status.style.color = 'red';
+      }
+    });
+
+    setTimeout(() => {
+      if (!bridgeReady) {
+        status.innerHTML = 'BRIDGE TIMEOUT';
+        status.style.color = 'red';
+        initMap(); // Try anyway
+      }
+    }, 6000);
+
+    function initMap() {
+      status.innerHTML = 'MAP INIT...';
+      try {
+        const map = L.map('map').setView([23.8103, 90.4125], 8);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        status.innerHTML = 'MAP READY!';
+        status.style.color = 'cyan';
+
+        let marker;
+        map.on('click', function(e) {
+          const lat = e.latlng.lat.toFixed(6);
+          const lng = e.latlng.lng.toFixed(6);
+          console.log("CLICKED:", lat, lng);
+
+          if (marker) map.removeLayer(marker);
+          marker = L.marker([lat, lng]).addTo(map);
+
+          const payload = JSON.stringify({
+            lat: parseFloat(lat),
+            lng: parseFloat(lng),
+            address: `${lat}, ${lng}`
+          });
+
+          if (window.bridge && typeof window.bridge.receive === 'function') {
+            console.log("SENDING:", payload);
+            window.bridge.receive(payload);
+          } else {
+            console.error("NO BRIDGE.receive()");
+            alert("Clicked: " + lat + ", " + lng);
+          }
+        });
+      } catch (e) {
+        status.innerHTML = 'MAP ERROR: ' + e.message;
+        status.style.color = 'red';
+      }
+    }
+  </script>
+</body>
+</html>
