@@ -68,7 +68,7 @@ Inspired by Bangladesh's rich agricultural heritage, BDSoil bridges traditional 
 
 3. Install dependencies:
    ```
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
 
 4. Prepare data files (place in a `data/` directory):
