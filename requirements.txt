@@ -3,3 +3,4 @@ pandas>=2.2.2
 pyside6>=6.5.0
 requests>=2.31.0
 reportlab>=4.0.0
+geopy>=2.4.1
